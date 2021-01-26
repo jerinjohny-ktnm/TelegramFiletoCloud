@@ -57,14 +57,14 @@ async def mixFileup(file, client, bot, s_time):
             reply_markup=InlineKeyboardMarkup(
                 [[
                     InlineKeyboardButton(
-                        "DOWNLOAD URL",
+                        "🔗 DOWNLOAD URL 🔗",
                         url=f"{dl_b}"
                         )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🗂 SOURCE",
-                        url = "https://github.com/Abhijith-cloud/"
+                        "🔱 ADMIN 🔱",
+                        url = "https://t.me/imjerin"
                     )
                 ]])
             )
