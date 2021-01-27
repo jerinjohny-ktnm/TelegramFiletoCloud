@@ -29,7 +29,7 @@ async def mixFileup(file, client, bot, s_time):
         await client.edit_message_text(
         chat_id=bot.from_user.id,
         message_id=bot.message.message_id,
-        text="Uploadig to MixDrop..."
+        text="Uploading to MixDrop..."
         )
         email = env_email
         api_key = env_api_key
