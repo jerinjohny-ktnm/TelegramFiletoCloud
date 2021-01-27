@@ -17,7 +17,7 @@ async def fileDownload(client, bot):
     userMsg = await client.edit_message_text(
         chat_id=bot.from_user.id,
         message_id=bot.message.message_id,
-        text="Getting up my servers.",
+        text="Waking up my servers.",
     )
     user_progress = userMsg
     try:
