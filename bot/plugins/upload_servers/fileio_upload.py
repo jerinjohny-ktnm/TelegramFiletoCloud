@@ -24,7 +24,7 @@ async def fileIO(file, client, bot, s_time):
         await client.edit_message_text(
         chat_id=bot.from_user.id,
         message_id=bot.message.message_id,
-        text="Uploadig to File.IO"
+        text="Uploading to File.IO"
         )
         async with aiohttp.ClientSession() as session:
             files = {
