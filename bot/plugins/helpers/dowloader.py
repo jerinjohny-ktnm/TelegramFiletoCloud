@@ -17,7 +17,7 @@ async def fileDownload(client, bot):
     userMsg = await client.edit_message_text(
         chat_id=bot.from_user.id,
         message_id=bot.message.message_id,
-        text="processing your request...please wait",
+        text="Getting up my servers.",
     )
     user_progress = userMsg
     try:
@@ -25,7 +25,7 @@ async def fileDownload(client, bot):
         message = userMsg.reply_to_message,
         progress=progress,
         progress_args=(
-            "Downloading...",
+            "Downloading to my local server...",
             user_progress,
             now
             )
